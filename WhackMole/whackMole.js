@@ -68,7 +68,7 @@ function createGrid(arr) {
         for(let j = 0; j < 3; j++) {
             let col = document.createElement('li');
             let index = 3 * i + j;
-            if (arr[index] === 'true') col.innerHTML = 'M';
+            if (arr[index] === 'true') col.innerHTML = 'Mole';
             col.setAttribute('class', 'cell');
             row.append(col);
         }
