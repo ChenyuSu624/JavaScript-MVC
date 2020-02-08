@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Whack a Mole</title>
+        <style>
+            ul {
+            padding-inline-start: 0;
+            list-style: none;
+            }
+
+            .score, .click {
+            display: flex;
+            justify-content: center;
+            }
+
+            .cell {
+            background-color: skyblue;
+            width: 100px;
+            height: 100px;
+            border: 1px solid greenyellow;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .grid {
+            display: flex;
+            justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="score"></div>
+            <div class="click"></div>
+            <div class="grid"></div>
+        </div>
+        <script src="whackMole.js"></script>
+    </body>
+</html>
